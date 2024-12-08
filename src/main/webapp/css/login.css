@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/building.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: green; /* Green background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #B0B0B0;
+    font-size: 28px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #B0B0B0;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000; /* Green button background */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.login-container a {
+    color: #B0B0B0; /* Link color remains unchanged */
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-container a {
+    color: green; /* Changed link color to green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    color: #B0B0B0; /* Optional: Change color on hover for better visibility */
+}
